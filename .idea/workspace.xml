@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7320061-63b2-426c-ace9-7b63c4f043eb" name="Changes" comment="ch2 problem 1,2">
-      <change afterPath="$PROJECT_DIR$/ch2/Happy_or_Sad.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch2/Special_Day.py" afterDir="false" />
+    <list default="true" id="b7320061-63b2-426c-ace9-7b63c4f043eb" name="Changes" comment="ch2 problem 3,4,5">
+      <change afterPath="$PROJECT_DIR$/ch2/CC_and_Cheesekun.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/Telemarketer_or_not.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/Telemarketer_or_not.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +35,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.ANewHope.executor": "Run",
+    "Python.CC_and_Cheesekun.executor": "Run",
     "Python.Canadian_Calorie_Counting.executor": "Run",
     "Python.Happy_or_Sad.executor": "Run",
     "Python.Special_Day.executor": "Run",
@@ -56,7 +55,30 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Happy_or_Sad">
+  <component name="RunManager" selected="Python.CC_and_Cheesekun">
+    <configuration name="CC_and_Cheesekun" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="codingTestStudy" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch2/CC_and_Cheesekun.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Happy_or_Sad" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="codingTestStudy" />
       <option name="ENV_FILES" value="" />
@@ -105,6 +127,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.CC_and_Cheesekun" />
         <item itemvalue="Python.Happy_or_Sad" />
         <item itemvalue="Python.Special_Day" />
       </list>
@@ -127,7 +150,7 @@
       <option name="presentableId" value="Default" />
       <updated>1719545735089</updated>
       <workItem from="1719545736425" duration="67000" />
-      <workItem from="1719545807374" duration="9693000" />
+      <workItem from="1719545807374" duration="11959000" />
     </task>
     <task id="LOCAL-00001" summary="ch2 problem 1,2">
       <option name="closed" value="true" />
@@ -153,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719549671924</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ch2 problem 3,4,5">
+      <option name="closed" value="true" />
+      <created>1719590299105</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719590299105</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +192,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ch2 problem 1,2" />
-    <option name="LAST_COMMIT_MESSAGE" value="ch2 problem 1,2" />
+    <MESSAGE value="ch2 problem 3,4,5" />
+    <option name="LAST_COMMIT_MESSAGE" value="ch2 problem 3,4,5" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/codingTestStudy$ANewHope.coverage" NAME="ANewHope Coverage Results" MODIFIED="1719546556946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch1" />
@@ -170,5 +202,6 @@
     <SUITE FILE_PATH="coverage/codingTestStudy$Happy_or_Sad.coverage" NAME="Happy_or_Sad Coverage Results" MODIFIED="1719590136954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch2" />
     <SUITE FILE_PATH="coverage/codingTestStudy$Winning_Score.coverage" NAME="Winning_Score Coverage Results" MODIFIED="1719546613939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch2" />
     <SUITE FILE_PATH="coverage/codingTestStudy$Special_Day.coverage" NAME="Special_Day Coverage Results" MODIFIED="1719587350477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch2" />
+    <SUITE FILE_PATH="coverage/codingTestStudy$CC_and_Cheesekun.coverage" NAME="CC_and_Cheesekun Coverage Results" MODIFIED="1719592106023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch2" />
   </component>
 </project>
