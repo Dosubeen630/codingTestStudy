@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7320061-63b2-426c-ace9-7b63c4f043eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ch2/Canadian_Calorie_Counting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch2/Winning_Score.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonProgramming.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="b7320061-63b2-426c-ace9-7b63c4f043eb" name="Changes" comment="ch2 problem 1,2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,16 +65,37 @@
       <option name="presentableId" value="Default" />
       <updated>1719545735089</updated>
       <workItem from="1719545736425" duration="67000" />
-      <workItem from="1719545807374" duration="3429000" />
+      <workItem from="1719545807374" duration="3755000" />
     </task>
+    <task id="LOCAL-00001" summary="ch2 problem 1,2">
+      <option name="closed" value="true" />
+      <created>1719549610394</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719549610394</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ch2 problem 1,2">
+      <option name="closed" value="true" />
+      <created>1719549625967</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719549625967</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ch2 problem 1,2" />
+    <option name="LAST_COMMIT_MESSAGE" value="ch2 problem 1,2" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/codingTestStudy$ANewHope.coverage" NAME="ANewHope Coverage Results" MODIFIED="1719546556946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch1" />
-    <SUITE FILE_PATH="coverage/codingTestStudy$Canadian_Calorie_Counting.coverage" NAME="Canadian_Calorie_Counting Coverage Results" MODIFIED="1719549145958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch2" />
+    <SUITE FILE_PATH="coverage/codingTestStudy$Canadian_Calorie_Counting.coverage" NAME="Canadian_Calorie_Counting Coverage Results" MODIFIED="1719549417103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch2" />
     <SUITE FILE_PATH="coverage/codingTestStudy$Winning_Score.coverage" NAME="Winning_Score Coverage Results" MODIFIED="1719546613939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch2" />
   </component>
 </project>
