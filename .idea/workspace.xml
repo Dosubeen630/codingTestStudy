@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7320061-63b2-426c-ace9-7b63c4f043eb" name="Changes" comment="ch2 problem 6">
-      <change afterPath="$PROJECT_DIR$/ch2/Who_is_in_the_middle.py" afterDir="false" />
+    <list default="true" id="b7320061-63b2-426c-ace9-7b63c4f043eb" name="Changes" comment="ch2 problem 7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch2/Who_is_in_the_middle.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/Who_is_in_the_middle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +40,7 @@
     "Python.Happy_or_Sad.executor": "Run",
     "Python.Special_Day.executor": "Run",
     "Python.Telemarketer_or_not.executor": "Run",
+    "Python.Who_is_in_the_middle.executor": "Run",
     "Python.Winning_Score.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -150,7 +151,7 @@
       <option name="presentableId" value="Default" />
       <updated>1719545735089</updated>
       <workItem from="1719545736425" duration="67000" />
-      <workItem from="1719545807374" duration="16551000" />
+      <workItem from="1719545807374" duration="18534000" />
     </task>
     <task id="LOCAL-00001" summary="ch2 problem 1,2">
       <option name="closed" value="true" />
@@ -192,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719592579928</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ch2 problem 7">
+      <option name="closed" value="true" />
+      <created>1719714843177</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719714843177</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +211,8 @@
     <MESSAGE value="ch2 problem 1,2" />
     <MESSAGE value="ch2 problem 3,4,5" />
     <MESSAGE value="ch2 problem 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="ch2 problem 6" />
+    <MESSAGE value="ch2 problem 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="ch2 problem 7" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/codingTestStudy$ANewHope.coverage" NAME="ANewHope Coverage Results" MODIFIED="1719546556946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch1" />
@@ -210,6 +220,7 @@
     <SUITE FILE_PATH="coverage/codingTestStudy$Telemarketer_or_not.coverage" NAME="Telemarketer_or_not Coverage Results" MODIFIED="1719586780106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch2" />
     <SUITE FILE_PATH="coverage/codingTestStudy$Happy_or_Sad.coverage" NAME="Happy_or_Sad Coverage Results" MODIFIED="1719590136954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch2" />
     <SUITE FILE_PATH="coverage/codingTestStudy$Winning_Score.coverage" NAME="Winning_Score Coverage Results" MODIFIED="1719546613939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch2" />
+    <SUITE FILE_PATH="coverage/codingTestStudy$Who_is_in_the_middle.coverage" NAME="Who_is_in_the_middle Coverage Results" MODIFIED="1719721639688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch2" />
     <SUITE FILE_PATH="coverage/codingTestStudy$Special_Day.coverage" NAME="Special_Day Coverage Results" MODIFIED="1719587350477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch2" />
     <SUITE FILE_PATH="coverage/codingTestStudy$CC_and_Cheesekun.coverage" NAME="CC_and_Cheesekun Coverage Results" MODIFIED="1719592106023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch2" />
   </component>
