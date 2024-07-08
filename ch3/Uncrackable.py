@@ -25,6 +25,12 @@ lower = 0
 upper = 0
 digit = 0
 
+# password 의 길이가 8보다 크고 12랑 같거나 작을때,
+if 8 <= len(password) <= 12:
+    pass
+else:
+    exit("Invalid")
+
 for char in password:
     # 소문자가 있는지 체크하고 있으면 1개를 lower라는 변수에 더해줌.
     if char.islower():
@@ -35,22 +41,14 @@ for char in password:
     # 숫자가 있는지 체크하고 있으면 1개를 digit라는 변수에 더해줌.
     elif char.isdigit():
         digit = digit + 1
-         # password 의 길이가 8보다 크고 12랑 같거나 작을때,
-        if len(password) > 8 or len(password) <= 12:
-            # password가 소문자가 3개인지, 대문자가 2개인지 , 숫자가 1개 포함되었는지 검사
-            if password.islower() == 3 and password.isupper() == 2 and password.isdigit() == 1:
-                print("Valid")
-        # 숫자가 1개 없을때,
-            elif password.islower() == 3 and password.isupper() == 2 and password.isdigit() == 0:
-                print("Invalid")
-        # 대문자가 2개가 아닐때,
-            elif password.islower() == 3 and password.isupper() != 2 and password.isdigit() == 1:
-                print("Invalid")
-        # 소문자가 3개가 아닐때,
-            elif password.islower() != 3 and password.isupper() == 2 and password.isdigit() == 1:
-                print("Invalid")
-        else: # password 가 8개 이하 이거나 12개보다 길이가 길때
-            print("Invalid")
+
+# password가 소문자가 3개인지, 대문자가 2개인지 , 숫자가 1개 포함되었는지 검사
+if lower >= 3 and upper >= 2 and digit >= 1:
+    print("Valid")
+
+else:
+    print("Invalid")
+
 
 
 
