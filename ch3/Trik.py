@@ -36,31 +36,28 @@ small_ball_location = left_cup_under
 # Borko_move_type = 'B' == middle_cup and right_cup swap
 # Borko_move_type = 'C' == right_cup  and left_cup swap
 
-# 작은 공의 위치가 왼쪽 컵 아래일 경우
-small_ball_location = '1'
 # 보르코의 움직임 중에서
 for Borko_moves_type in Borko_moves:
-    if small_ball_location == 1:
-        if Borko_moves_type == 'A':
+    if Borko_moves_type == 'A':
+        if small_ball_location == 1:
             small_ball_location = 2
-        elif Borko_moves_type == 'B':
-            pass
-        else: # C
-            small_ball_location = 3
-        pass
-    elif small_ball_location == 2:
-        if Borko_moves_type == 'A':
+        elif small_ball_location == 2:
             small_ball_location = 1
-        elif Borko_moves_type == 'B':
+        else: # 3
+            pass
+    elif Borko_moves_type == 'B':
+        if small_ball_location == 1:
+            pass
+        elif small_ball_location == 2:
             small_ball_location = 3
-        else: # C
-            pass
-    else: # 3
-        if Borko_moves_type == 'A':
-            pass
-        elif Borko_moves_type == 'B':
+        else: # 3
             small_ball_location = 2
-        else: # C
+    else: # C
+        if small_ball_location == 1:
+            small_ball_location = 3
+        elif small_ball_location == 2:
+            pass
+        else: # 3
             small_ball_location = 1
 
 print(small_ball_location)
