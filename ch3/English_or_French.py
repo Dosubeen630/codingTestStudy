@@ -25,25 +25,24 @@ line = int(line)
 if not 0 < line < 10000:
     exit(" 입력한 단어의 수가 범위를 벗어 납니다.")
 
+t_sum = 0
+s_sum = 0
+
 for n in range(line):
-    # 입력된 값이 0이 아니면, 텍스트를 입력 받은 라인 수 만큼 입력 받는다.
-    if line != 0:
-        text = input()
-    # 입력된 값이 0이면 아무 것도 입력 받지 않는다.
-    else:
-        pass
-# 소문자 t의 개수를 세어서 저장할 변수 선언
-t_num1 = text.count('t')
-# 대문자 T의 개수를 세어서 저장할 변수 선언
-t_num2 = text.count('T')
-# 소문자 s의 개수를 세어서 저장할 변수 선언
-s_num1 = text.count('s')
-# 대문자 S의 개수를 세어서 저장할 변수 선언
-s_num2 = text.count('S')
-# 대문자, 소문자 T의 개수를 합한 값을 저장할 변수
-t_sum = t_num1 + t_num2
-# 대문자, 소문자 S의 개수를 합한 값을 저장할 변수
-s_sum = s_num1 + s_num2
+    text = input()
+    # 소문자 t의 개수를 세어서 저장할 변수 선언
+    t_num1 = text.count('t')
+    # 대문자 T의 개수를 세어서 저장할 변수 선언
+    t_num2 = text.count('T')
+    # 소문자 s의 개수를 세어서 저장할 변수 선언
+    s_num1 = text.count('s')
+    # 대문자 S의 개수를 세어서 저장할 변수 선언
+    s_num2 = text.count('S')
+
+    # 대문자, 소문자 T의 개수를 합한 값을 저장할 변수
+    t_sum = t_sum + t_num1 + t_num2
+    # 대문자, 소문자 S의 개수를 합한 값을 저장할 변수
+    s_sum = s_sum + s_num1 + s_num2
 
 # 대소문자 T의 합과 대소문자 S의 합을 비교하여 t_sum이 더 크면,
 if t_sum > s_sum:
