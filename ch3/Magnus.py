@@ -32,10 +32,12 @@ if not len(words) <= 100000:
     exit("입력한 문자의 길이가 너무 큽니다.")
 if not words.isupper():
     exit("입력값이 대문자가 아닙니다.")
+# 입력받은 단어들 중에서 호니 라는 단어의 전 글자를 저장하기 위한 용도 변수 선언
 prev = None
 # 입력받은 단어 중에서 반복문을 돌려라
 for char in words:
-    print(char)
+    #print(char)
+    # 입력값 중 'H'라는 단어와 이전 단어 저장변수에 아무값도 없거나, 'I'값이 있을경우,
     if char == 'H' and (prev is None or prev == 'I'):
         prev = 'H'
     elif char == 'O' and prev == 'H':
@@ -46,7 +48,7 @@ for char in words:
         prev = 'I'
 
         honi_blocks = honi_blocks + 1
-        print(honi_blocks)
+        #print(honi_blocks)
     else:
         pass
 
