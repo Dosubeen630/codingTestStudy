@@ -29,7 +29,8 @@ digit = 0
 if 8 <= len(password) <= 12:
     pass
 else:
-    exit("Invalid")
+    print("Invalid")
+
 
 for char in password:
     # 소문자가 있는지 체크하고 있으면 1개를 lower라는 변수에 더해줌.
