@@ -12,26 +12,28 @@
 # 각각의 2N은 C는 사용된 공간을, .은 빈 주차공간을 의미한다.
 # 출력은 어제와 오늘 모두에서 사용된 주차공간의 수를 출력해야한다.
 
-# 우선 주차공간 n, 어제 사용된 주차공간 yesterday_occupied, 오늘 사용된 주차공간 today_occupied 입력받음.
-n = input()
-if not n.isdigit():
+# 우선 주차공간 space, 어제 사용된 주차공간 yesterday_occupied, 오늘 사용된 주차공간 today_occupied 입력받음.
+PARKED = 'C'
+EMPTY = '.'  # 변하지 않는 값으로 상수로 선언!
+space = input()
+if not space.isdigit():
     exit("입력 값이 잘못 되었습니다.")
-n = int(n)
-if not 0 <= n <= 100:
+space = int(space)
+if not 0 <= space <= 100:
     exit("범위를 벗어 납니다.(0 <= n <= 100)")
 
 yesterday_occupied = input()
-#if not yesterday_occupied.isalnum():
- #   exit("입력 값이 잘못 되었습니다.")
+if yesterday_occupied.count(PARKED) + yesterday_occupied.count(EMPTY) != space:
+    exit("입력 값이 잘못 되었습니다.('C','.'만 입력 가능, space만큼 입력 필요)")
 
 today_occupied = input()
-#if not today_occupied.isalnum():
- #   exit("입력 값이 잘못 되었습니다.")
+if today_occupied.count(PARKED) + today_occupied.count(EMPTY) != space:
+    exit("입력 값이 잘못 되었습니다.('C','.'만 입력 가능, space만큼 입력 필요)")
 # 어제, 오늘 모두 사용된 주차공간을 나타내는 변수
 both_occupied = 0
 
-for i in range(len(yesterday_occupied)):
-    if yesterday_occupied[i] == "C" and today_occupied[i] == "C":
+for i in range(space):
+    if yesterday_occupied[i] == PARKED and today_occupied[i] == PARKED:
         both_occupied += 1
 
 print(both_occupied)
