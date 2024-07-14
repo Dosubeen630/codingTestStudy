@@ -34,14 +34,14 @@ infect_r = int(infect_r)
 if not infect_r <= 10: exit(f"{infect_r}의 범위에 벗어 났습니다.")
 
 # 슬롯머신 문제와 비슷한 점 - 가지고 있는 동전 수, 기계 3개를 순서 대로 플레이, 각 머신마다 특정 플레이 횟수에 다다르면 상금을 지불해 줌. 그 돈으로 추가 플레이 가능.
-# 이 문제는 총 감염돌 것으로 예측된 사람들 수, 첫번째 날 감염자, 그 이후 한명당 감염 시키는 사람 수 타켓인원보다 감염자가 많아지는 날 구하기
+# 이 문제는 총 감염될 것으로 예측된 사람들 수, 첫번째 날 감염자, 그 이후 한명당 감염 시키는 사람 수 타켓 인원보다 감염자가 많아지는 날 구하기
 
-after_day = 1
-days_total = day0_infection
+after_day = 1 # 0일 이후에 감염된 날
+days_total = day0_infection # 우선 첫날 감염자를 날짜가 지날때 마다 감염된 인원의 총합의 초기화 의미로 선언해줌.??
 
 
-while days_total <= target_people:
-       days_total = day0_infection* infect_r
+while days_total <= target_people: # 총 감염 될 것으로 추정 되는 타겟 인원 보다 0일 이후에 감염된 사람이 같거나 적을때 까지로 지정
+       days_total = day0_infection * infect_r
        day0_infection = day0_infection + days_total * infect_r
        after_day += 1
 
