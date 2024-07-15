@@ -17,8 +17,8 @@
 
 sentence = input()
 result = ' ' # 단어 원문을 저장 하기 위한 변수
-if not sentence.islower(): exit(f"{sentence}의 형식은 소문자 입니다.소문자로 입력 해 주세요.")
-if not len(sentence) <= 100: exit(f"{sentence}의 입력 범위를 벗어 났습니다.")
+if not sentence.islower(): exit(f"{sentence} != lower")
+if not len(sentence) <= 100: exit(f"{len(sentence)} <= 100")
 #if not sentence.isspace(): exit(f"{sentence}에는 단어와 단어 사에에 공백이 필요 합니다.")
 
 i = 0

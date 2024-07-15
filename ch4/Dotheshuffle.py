@@ -43,14 +43,14 @@ button_num = 0
 while button_num != 4: # 4번 버튼을 누른 것이 아니면 아래와 같은 작업을 반복 수행한다.
 # 입력값 유효성 체크
     button_num = input()
-    if not button_num.isdigit(): exit(f"{button_num}의 입력 형식은 숫자 입니다. 숫자로 입력 해 주세요.")
+    if not button_num.isdigit(): exit(f"{button_num} != digit")
     button_num = int(button_num)
-    if not 1 <= button_num <= 4: exit(f"{button_num}의 범위가 벗어 났습니다.")
+    if not 1 <= button_num <= 4: exit(f" 1 <= {button_num} <= 4")
 
     push_button = input()
-    if not push_button.isdigit(): exit(f"{push_button}의 입력 형식은 숫자 입니다. 숫자로 입력 해 주세요.")
+    if not push_button.isdigit(): exit(f"{push_button} != digit")
     push_button = int(push_button)
-    if not 1 <= push_button <= 10: exit(f"{push_button}의 범위가 벗어 났습니다.")
+    if not 1 <= push_button <= 10: exit(f" 1 <= {push_button} <= 10")
 
     for i in range(push_button):
         if button_num == 1:

@@ -21,17 +21,17 @@
 # 한번 이상 감염된 사람은 없음. 총 P명의 사람들이 언제 질병에 걸렸는지 알고 싶어함.
 # 사용자 에게 입력 받는 것 -  P, day 0 에 걸린 사람 N, 질병에 걸린 사람들이 감염 시키는 수 R
 target_people = input() #P
-if not target_people.isdigit(): exit(f"{target_people}의 입력 형태는 숫자 입니다. 숫자로 입력 해 주세요.")
+if not target_people.isdigit(): exit(f"{target_people} != digit")
 target_people = int(target_people)
-if not target_people <= 100000000: exit(f"{target_people}의 범위에 벗어 났습니다.")
+if not target_people <= 100000000: exit(f"{target_people} <= 100000000")
 day0_infection = input() # day0 질병을 가지고 있는 사람 수 N
-if not day0_infection.isdigit(): exit(f"{day0_infection}의 입력 형태는 숫자 입니다. 숫자로 입력 해 주세요.")
+if not day0_infection.isdigit(): exit(f"{day0_infection} != digit")
 day0_infection = int(day0_infection)
-if not day0_infection <= target_people: exit(f"{day0_infection}의 범위에 벗어 났습니다.")
+if not day0_infection <= target_people: exit(f"{day0_infection} <= {target_people}")
 infect_r = input() #R
-if not infect_r.isdigit(): exit(f"{infect_r}의 입력 형태는 숫자 입니다. 숫자로 입력 해 주세요.")
+if not infect_r.isdigit(): exit(f"{infect_r} != digit")
 infect_r = int(infect_r)
-if not infect_r <= 10: exit(f"{infect_r}의 범위에 벗어 났습니다.")
+if not infect_r <= 10: exit(f"{infect_r} <= 10")
 
 # 슬롯머신 문제와 비슷한 점 - 가지고 있는 동전 수, 기계 3개를 순서 대로 플레이, 각 머신마다 특정 플레이 횟수에 다다르면 상금을 지불해 줌. 그 돈으로 추가 플레이 가능.
 # 이 문제는 총 감염될 것으로 예측된 사람들 수, 첫번째 날 감염자, 그 이후 한명당 감염 시키는 사람 수 타켓 인원보다 감염자가 많아지는 날 구하기

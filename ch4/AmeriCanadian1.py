@@ -18,8 +18,8 @@ finish = False
 
 while not finish:
     words = input()
-    if words.isdigit(): exit(f"{words}의 입력 형식은 문자 입니다.")
-    if not len(words) <= 64: exit(f"{words}의 범위는 64개 이하 여야 합니다.")
+    if not words.isalpha(): exit(f"{words} != alpha")
+    if not len(words) <= 64: exit(f"{len(words)} <= 64")
 
     if len(words) > 4 and not (words[-3] in 'aeiouy') and words[-2:] == 'or':
         print(words[:-2] + 'our')
