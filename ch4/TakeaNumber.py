@@ -67,4 +67,4 @@ while True:
 
     else:
         break  # 위의 EOF 인 경우에 take, serve,close 어느 경우에도 해당 되지 않아
-               # 어짜피  루프 종료 됨.
+               # 어짜피  루프 종료 됨. break 사용해 보고 싶어서 else 사용해봄.
