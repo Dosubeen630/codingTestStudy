@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7320061-63b2-426c-ace9-7b63c4f043eb" name="Changes" comment="책 연습문제 5번 두가지 방법으로 풀어보는중 추후 수정 요망">
+    <list default="true" id="b7320061-63b2-426c-ace9-7b63c4f043eb" name="Changes" comment="책 연습문제 1번 테스트 케이스 절반만 통과하던 문제 해결!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch4/Epidemiology.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch4/Epidemiology.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +36,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.10th.executor": "Run",
     "Python.ANewHope.executor": "Run",
     "Python.AmeriCanadian.executor": "Run",
     "Python.AmeriCanadian1.executor": "Run",
     "Python.CC_and_Cheesekun.executor": "Run",
     "Python.Canadian_Calorie_Counting.executor": "Run",
+    "Python.CoreDrill.executor": "Run",
     "Python.Dotheshuffle.executor": "Run",
     "Python.Dotheshufflech.executor": "Run",
     "Python.Elder.executor": "Run",
@@ -54,6 +55,7 @@
     "Python.Ljestvica.executor": "Run",
     "Python.Magnus.executor": "Run",
     "Python.Multiple_Choice.executor": "Run",
+    "Python.NotaWallOfText.executor": "Run",
     "Python.Numbererase1.executor": "Run",
     "Python.Occupy_parking.executor": "Run",
     "Python.Ptice.executor": "Run",
@@ -101,7 +103,53 @@
       <recent name="$PROJECT_DIR$/goormexample" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Epidemiology2">
+  <component name="RunManager" selected="Python.CoreDrill">
+    <configuration name="10th" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="codingTestStudy" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/10th.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CoreDrill" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="codingTestStudy" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch1/CoreDrill.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Epidemiology" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="codingTestStudy" />
       <option name="ENV_FILES" value="" />
@@ -148,7 +196,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Ptice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="NotaWallOfText" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="codingTestStudy" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,58 +205,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch4/Ptice.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TakeaNumber" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="codingTestStudy" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch4/TakeaNumber.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="WhenYouEatYourSmarties" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="codingTestStudy" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch4/WhenYouEatYourSmarties.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch1/NotaWallOfText.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.CoreDrill" />
+        <item itemvalue="Python.NotaWallOfText" />
+        <item itemvalue="Python.10th" />
         <item itemvalue="Python.Epidemiology2" />
         <item itemvalue="Python.Epidemiology" />
-        <item itemvalue="Python.WhenYouEatYourSmarties" />
-        <item itemvalue="Python.Ptice" />
-        <item itemvalue="Python.TakeaNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +247,7 @@
       <updated>1719545735089</updated>
       <workItem from="1719545736425" duration="67000" />
       <workItem from="1719545807374" duration="51091000" />
-      <workItem from="1720178130149" duration="166152000" />
+      <workItem from="1720178130149" duration="172392000" />
     </task>
     <task id="LOCAL-00001" summary="ch2 problem 1,2">
       <option name="closed" value="true" />
@@ -471,14 +473,21 @@
       <option name="project" value="LOCAL" />
       <updated>1721122608585</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="책 연습문제 1번 테스트 케이스 절반만 통과하던 문제 해결!">
+      <option name="closed" value="true" />
+      <created>1721134683657</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1721134683657</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ch2 problem 3,4,5" />
     <MESSAGE value="ch2 problem 6" />
     <MESSAGE value="ch2 problem 7" />
     <MESSAGE value="ch2 문제 7번 숫자 비교 if문elif문 수정" />
@@ -503,10 +512,12 @@
     <MESSAGE value="책 연습문제 4번 , 다른 문제들 입력값 유효성 체크 부분 수정" />
     <MESSAGE value="책 연습문제 2번" />
     <MESSAGE value="책 연습문제 5번 두가지 방법으로 풀어보는중 추후 수정 요망" />
-    <option name="LAST_COMMIT_MESSAGE" value="책 연습문제 5번 두가지 방법으로 풀어보는중 추후 수정 요망" />
+    <MESSAGE value="책 연습문제 1번 테스트 케이스 절반만 통과하던 문제 해결!" />
+    <option name="LAST_COMMIT_MESSAGE" value="책 연습문제 1번 테스트 케이스 절반만 통과하던 문제 해결!" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/codingTestStudy$Trik.coverage" NAME="Trik Coverage Results" MODIFIED="1720425519407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch3" />
+    <SUITE FILE_PATH="coverage/codingTestStudy$CoreDrill.coverage" NAME="CoreDrill Coverage Results" MODIFIED="1721636049888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch1" />
     <SUITE FILE_PATH="coverage/codingTestStudy$ANewHope.coverage" NAME="ANewHope Coverage Results" MODIFIED="1719546556946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch1" />
     <SUITE FILE_PATH="coverage/codingTestStudy$Telemarketer_or_not.coverage" NAME="Telemarketer_or_not Coverage Results" MODIFIED="1719586780106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch2" />
     <SUITE FILE_PATH="coverage/codingTestStudy$Trik2.coverage" NAME="Trik2 Coverage Results" MODIFIED="1720180992981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch3" />
@@ -526,6 +537,7 @@
     <SUITE FILE_PATH="coverage/codingTestStudy$AmeriCanadian1.coverage" NAME="AmeriCanadian1 Coverage Results" MODIFIED="1721023233024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch4" />
     <SUITE FILE_PATH="coverage/codingTestStudy$Occupy_parking.coverage" NAME="Occupy_parking Coverage Results" MODIFIED="1720424844467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch3" />
     <SUITE FILE_PATH="coverage/codingTestStudy$Canadian_Calorie_Counting.coverage" NAME="Canadian_Calorie_Counting Coverage Results" MODIFIED="1719549417103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch2" />
+    <SUITE FILE_PATH="coverage/codingTestStudy$NotaWallOfText.coverage" NAME="NotaWallOfText Coverage Results" MODIFIED="1721634570959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch1" />
     <SUITE FILE_PATH="coverage/codingTestStudy$Rijeci.coverage" NAME="Rijeci Coverage Results" MODIFIED="1720624408498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch3" />
     <SUITE FILE_PATH="coverage/codingTestStudy$Ptice2.coverage" NAME="Ptice2 Coverage Results" MODIFIED="1721026768991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch4" />
     <SUITE FILE_PATH="coverage/codingTestStudy$TakeaNumber.coverage" NAME="TakeaNumber Coverage Results" MODIFIED="1721053156732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch4" />
@@ -534,6 +546,7 @@
     <SUITE FILE_PATH="coverage/codingTestStudy$Special_Day.coverage" NAME="Special_Day Coverage Results" MODIFIED="1719587350477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch2" />
     <SUITE FILE_PATH="coverage/codingTestStudy$Slot_machines.coverage" NAME="Slot_machines Coverage Results" MODIFIED="1720771555520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch4" />
     <SUITE FILE_PATH="coverage/codingTestStudy$WhenYouEatYourSmarties.coverage" NAME="WhenYouEatYourSmarties Coverage Results" MODIFIED="1721062976038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch4" />
+    <SUITE FILE_PATH="coverage/codingTestStudy$10th.coverage" NAME="10th Coverage Results" MODIFIED="1721188430890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm" />
     <SUITE FILE_PATH="coverage/codingTestStudy$Multiple_Choice.coverage" NAME="Multiple_Choice Coverage Results" MODIFIED="1720634017879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch3" />
     <SUITE FILE_PATH="coverage/codingTestStudy$join.coverage" NAME="join Coverage Results" MODIFIED="1720878630261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/etc" />
     <SUITE FILE_PATH="coverage/codingTestStudy$Elder.coverage" NAME="Elder Coverage Results" MODIFIED="1720618657291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch3" />
