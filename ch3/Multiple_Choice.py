@@ -9,7 +9,7 @@
 # 당신의 선생님이 점수를 주기 위한 한가지의 다양한 선택지가 있는 시험을 만드는 프로그램을 적어보아라.
 # The input will contain the number N(0<N<10000) followed by 2N lines.
 # 입력란에는 N이라는 숫자가 포함되어 있고, 뒤이어 2N의 라인이 주어진다.
-# The 2N lines are composed of N lines of student responses (with one of A, B, C, D or E on each line), followed by N lines of correct answers (with one of A, B, C, D or E on each line), in the same order as the student answered the questions (that is, if line
+# The 2N lines are composed of N lines of student responses (with one of A, B, C, D or E on each line), followed by N lines of correct answers_key (with one of A, B, C, D or E on each line), in the same order as the student answered the questions (that is, if line
 # i is the student response, then line N+i will contain the correct answer to that question).
 # 2N 라인은 N 라인의 문제의 개수, 두번째 줄에는 N개의 정답, 세번째 줄에는 학생의 답안이 주어진다.
 # Output the integer C(0<=C<=N) which corresponds to the number of questions the student answered correctly.
