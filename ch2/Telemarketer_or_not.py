@@ -16,7 +16,7 @@ if ((first_number == 8 or first_number == 9) and
     print("ignore")
 # 그 이외의 경우일때,
 else:
-    print("answer")
+    print("answer_num")
 
 
 
