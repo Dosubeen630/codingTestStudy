@@ -7,8 +7,10 @@
 # 지팡이 소유 여부 관련 코드로 짜는 것, 대결 중 이겨도 지팡이 소유 여부와 관련 없을때 처리 여부
 
 
-obeyed = input()
-if not obeyed.isupper(): exit(f"{obeyed} != upper")
+current_obey = input()
+obeyed = current_obey
+
+if not current_obey.isupper(): exit(f"{current_obey} != upper")
 
 duels = input()
 if not duels.isdigit(): exit(f"{duels} != digit")
@@ -21,16 +23,19 @@ for char in range(duels):
     if not (duel[0].isupper() and duel[1] == " " and duel[2].isupper()):
         exit(f"{duel} != [A-Z][" "] [A-Z]")
 
-    #winner = duel[0]
-   # looser = duel[2]
+    winner = duel[0]
+    looser = duel[2]
 
-    if duel[2] == obeyed[-1] :
-        obeyed += duel[0]
+    # if duel[2] == obeyed[-1] :
+    if looser == current_obey:
+        #obeyed += duel[0]
+        current_obey = winner
 
-        if obeyed.count(duel[0]) == 0:
-            obeyed += duel[0]
+        if obeyed.count(winner) == 0:
+            obeyed += winner
 
-print(obeyed[-1])
+print(current_obey)
+print(obeyed)
 print(len(obeyed))
 
 
