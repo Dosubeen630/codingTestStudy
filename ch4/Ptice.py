@@ -3,11 +3,11 @@
 # 아드리안, 브루노 및 고란은 새 애호가 클럽에 가입 하기를 원했습니다.
 # However, they did not know that all applicants must pass an entrance exam.
 # 그러나 그들은 모든 지원자가 입학 시험에 합격 해야 한다는 사실을 몰랐 습니다.
-# The exam consists of N questions, each with three possible answers: A, B and C.
+# The exam consists of N questions, each with three possible answers_key: A, B and C.
 # 시험은 N개의 질문 으로 구성 되며 각 질문 에는 A,B,C의 세가지 답이 있습니다.
-# Unfortunately, they couldn't tell a bird from a whale so they are trying to guess the correct answers.
+# Unfortunately, they couldn't tell a bird from a whale so they are trying to guess the correct answers_key.
 # 불행 하게도 그들은 새와 고래를 구별 할 수 없어서 정답을 추측 하려고 노력 하고 있습니다.
-# Each of the three boys has a theory of what set of answers will work best:
+# Each of the three boys has a theory of what set of answers_key will work best:
 # 세 소년은 각각 어떤 대답이 가장 효과적 인지에 대한 이론을 가지고 있습니다.
 # Adrian claims that the best sequence is: A,B,C,A,B,C,A,B,C,A,B,C,...
 # 아드리안은 가장 좋은 수서는 다음과 같다고 주장 합니다.
@@ -15,15 +15,15 @@
 # 브루노는 이것이 최선 이라고 확신 합니다.
 # Goran laughs at them and will use this sequence: C,C,A,A,B,B,C,C,A,A,B,B,...
 # 고란은 그들을 비웃으며 다음 순서를 사용 합니다.
-# Write a program that, given the correct answers to the exam, determines who of the three was right – whose sequence contains the most correct answers.
+# Write a program that, given the correct answers_key to the exam, determines who of the three was right – whose sequence contains the most correct answers_key.
 # 시험에 대한 정답이 주어 지면 세가지 중 누가 옳았는지 결정 하는 프로 그램을 작성 하세요. 그 순서 에는 가장 정답이 포함 되어 있습니다.
 # The first line contains an integer N(1<=N<=100), the number of questions on the exam.
 # 첫번째 줄에는 시험 문제 수인 정수 N이 포함 됩니다.
-# The second line contains a string of N letters A, B and C. These are, in order, the correct answers to the questions in the exam.
+# The second line contains a string of N letters A, B and C. These are, in order, the correct answers_key to the questions in the exam.
 # 두번째 줄에는 다음 문자 열이 포함 됩니다. 문자 A,B,C. 이것은 순서 대로 시험 문제에 대한 정답 입니다.
-# On the first line, output M, the largest number of correct answers one of the three boys gets.
+# On the first line, output M, the largest number of correct answers_key one of the three boys gets.
 # 첫번째 줄에는 세 남학생 중 한 명이 얻은 가장 많은 정답 수 인 M을 출력 합니다.
-# After that, output the names of the boys (in alphabetical order) whose sequences result in M correct answers.
+# After that, output the names of the boys (in alphabetical order) whose sequences result in M correct answers_key.
 # 그 후, M개의 정답이 나온 남자 아이의 이름을 (알파벳 순으로) 출력 합니다.
 
 # 도메인 분석: 사용자로 부터 시험문제 수, 시험 정답을 입력 받음.

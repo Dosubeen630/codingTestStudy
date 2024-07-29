@@ -18,32 +18,26 @@ Bruno_count = 0
 Goran_count = 0
 
 while i < len(answer):
-    Adrian_answer = Adrian [i % len(Adrian)]
-    Bruno_answer = Bruno [i % len(Bruno)]
-    Goran_answer = Goran [i % len(Goran)]
+    if answer[i] == Adrian [i % len(Adrian)]:
+        Adrian_count += 1
+    if answer[i] == Bruno [i % len(Bruno)]:
+        Bruno_count += 1
+    if answer[i] == Goran [i % len(Goran)]:
+        Goran_count += 1
 
     i += 1
 
-    if answer[i] == Adrian_answer:
-        Adrian_count += 1
-    elif answer[i] == Bruno_answer:
-        Bruno_count += 1
-    else: # answer[i} == Goran_answer
-        Goran_count += 1
-
-    max_answer = Adrian_count# 정답을 많이 맞춘 사람 갯수를 아드리안 이라고 정하고
-    max_name = None
-    if max_answer < Bruno_count :
-        max_answer = Bruno_count
-        max_name = Bruno
-    elif max_answer < Goran_count:
-        max_answer = Goran_count
-        max_name = Goran
-    else:
-        max_answer = Adrian_count
-        max_name = Adrian
+max_count = max(Adrian_count, Bruno_count, Goran_count)
+winners = []
+if Adrian_count == max_count:
+    winners.append("Adrian")
+if Bruno_count == max_count:
+    winners.append("Bruno")
+if Goran_count == max_count:
+    winners.append("Goran")
 
 
-    print(max_answer)
-   # print(max_name)
+print(max_count)
+for winner in sorted(winners):
+    print(winner)
 

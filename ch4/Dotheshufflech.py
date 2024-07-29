@@ -24,7 +24,7 @@ while button_num != 4: # 4번 버튼을 누른 것이 아니면 아래와 같은
         elif button_num == 3:
             music_playlist = music_playlist[1]+ music_playlist[0] + music_playlist[2:]
 
-        else: # button_num == 4 # music_playlist를 그대로 출력하면 공백이 나오지 않음. 그 문제를 for문과 if문 사용하여 공백 추가하여 출력
+        else: # button == 4 # music_playlist를 그대로 출력하면 공백이 나오지 않음. 그 문제를 for문과 if문 사용하여 공백 추가하여 출력
             result = None
             for c in music_playlist:
                 if result is None:
